@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>com.tm.ui.RegisterUI</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.tm.ui.LoginUI</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>com.tm.control.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.tm.control.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShopIndexServlet</servlet-name>
+    <servlet-class>com.tm.control.ShopIndexServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DetailsServlet</servlet-name>
+    <servlet-class>com.tm.control.DetailsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BuyServlet</servlet-name>
+    <servlet-class>com.tm.control.BuyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CartSendShopServlet</servlet-name>
+    <servlet-class>com.tm.control.CartSendShopServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/servlet/RegisterUI</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/servlet/LoginUI</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/servlet/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/servlet/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShopIndexServlet</servlet-name>
+    <url-pattern>/servlet/ShopIndexServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DetailsServlet</servlet-name>
+    <url-pattern>/servlet/DetailsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BuyServlet</servlet-name>
+    <url-pattern>/servlet/BuyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CartSendShopServlet</servlet-name>
+    <url-pattern>/servlet/CartSendShopServlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>
